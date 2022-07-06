@@ -16,55 +16,105 @@ ul {
     list-style-type: none;
 }
 
-/* .fondomain {
-    background-image: url("./imagesautos/lambofondo.jpg");
-    height: 1000px;
-    max-width: 100%;
-    background-position: center;
-    background-size: cover;
+/* HEADER */
+
+.navbar {
+    font-family: 'Mulish', sans-serif;
+}
+
+.nav-link {
+    background-image: linear-gradient(black, white);
+    background-position: 50% 85%;
     background-repeat: no-repeat;
-} */
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.nav-link:hover {
+    background-size: 100% 2px;
+}
+
+/* MAIN */
+
+/* CARRUSEL */
 
 .fondomain h1 {
     font-size: 6rem;
     max-width: 30rem;
     color: black;
-    /* background-color: white; */
     font-weight: bold;
-    
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
 }
 
 .fondomain p {
     font-size: 3rem;
     max-width: 30rem;
     color: black;
-    /* background-color: white; */
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
 }
 
 .posicion {
     position: absolute;
-    bottom: 20rem;
+    bottom: 7rem;
     left: 20rem;
-    margin: 0 auto;
+}
+
+.icon__main {
+    transition: transform 0.3s;
+}
+
+.icon__main:hover {
+    border: black;
+    background-color: black;
+
+}
+
+.icon__main2 {
+    color: black;
+}
+
+.icon__main2:hover {
+    color: white;
 }
 
 
-/* @media (max-width: 768px) {
-    .fondomain {
-        background-image: url("./imagesautos/Lambofondomain.jpg");
-        max-width: 50%;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-    }
-} */
 
+/* CARDS MAIN */
 
+.card {
+    transition: transform 0.3s;
+}
 
+.card:hover {
+    transform: translateY(-10px);
+}
 
+.btn__card {
+    transition: background-color 0.5s, color 0.5s;
+}
 
+.btn__card:hover {
+    background-color: white;
+    color: black;
+}
 
+/* CONTACTO */
 
+.form-label {
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.form-control:hover {
+    box-shadow: none;
+}
+
+.btn__contact:hover {
+    color: black;
+    background-color: white;
+}
 
