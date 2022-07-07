@@ -88,6 +88,10 @@ ul {
     transition: transform 0.3s;
 }
 
+/* .card div {
+    height: 300px;
+} */
+
 .card:hover {
     transform: translateY(-10px);
 }
@@ -100,6 +104,13 @@ ul {
     background-color: white;
     color: black;
 }
+
+/* GALERIA */
+
+/* .card__galeria {
+    height: 500px;
+} */
+
 
 /* CONTACTO */
 
