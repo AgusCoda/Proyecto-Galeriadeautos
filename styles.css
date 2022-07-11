@@ -67,8 +67,8 @@ ul {
 }
 
 .icon__main:hover {
-    border: black;
-    background-color: black;
+    border: grey;
+    background-color: grey;
 
 }
 
@@ -80,6 +80,17 @@ ul {
     color: white;
 }
 
+.backimg {
+    background-image: url("./imagesautos/bmwfondo.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;  
+}
+
 
 
 /* CARDS MAIN */
@@ -87,10 +98,6 @@ ul {
 .card {
     transition: transform 0.3s;
 }
-
-/* .card div {
-    height: 300px;
-} */
 
 .card:hover {
     transform: translateY(-10px);
@@ -103,6 +110,10 @@ ul {
 .btn__card:hover {
     background-color: white;
     color: black;
+}
+
+.card__inicio {
+    
 }
 
 /* GALERIA */
@@ -127,5 +138,13 @@ ul {
 .btn__contact:hover {
     color: black;
     background-color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .texto-carrusel h1 {
+        font-size: 5rem;
+    }
 }
 

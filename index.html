@@ -30,9 +30,9 @@
       <nav class="navbar navbar-expand-lg bg-dark sticky-top">
         <div class="container">
           <a class="navbar-brand text-white mx-2 fs-2" href="#">Dream Big</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon navbar-dark"></span>
           </button>
           <div class="collapse navbar-collapse flex-lg-row-reverse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
@@ -48,30 +48,54 @@
   </header>
 
   <main>
+    <div class="backimg">
+      <div class="fondomain container-fluid">
+        <div class="container texto-carrusel">
+          <p class="text-white">Dream Big</p>
+          <h1 class="mb-5 text-white">Autos deportivos</h1>
+          <button type="button" class="btn btn-light btn-lg icon__main"><a href="./pages/galeria.html"><i class="bi bi-caret-right p-2 icon__main2"></i></a></button>
+        </div>
+      </div>
+    </div>
     
     <!-- CARRUSEL -->
     
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
       <div class="carousel-indicators p-5">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-          <span></span>
+          <span class="backimg">></span>
         </button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
-          <span></span>
+          <span class="backimg"></span>
         </button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
-          <span></span>
+          <span class="backimg"></span>
         </button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./imagesautos/bmwfondo.jpg" class="d-block w-100" alt="...">
+          <div class="container carousel-caption carousel-center">
+            <p class="text-white">Dream Big</p>
+            <h1 class="mb-5 text-white">Autos deportivos</h1>
+            <button type="button" class="btn btn-light btn-lg icon__main"><a href="./pages/galeria.html"><i class="bi bi-caret-right p-2 icon__main2"></i></a></button>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="./imagesautos/teslafondo.jpg" class="d-block w-100" alt="...">
+          <div class="container carousel-caption carousel-center">
+            <p class="text-white">Dream Big</p>
+            <h1 class="mb-5 text-white">Autos deportivos</h1>
+            <button type="button" class="btn btn-light btn-lg icon__main"><a href="./pages/galeria.html"><i class="bi bi-caret-right p-2 icon__main2"></i></a></button>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="./imagesautos/lambofondo.jpg" class="d-block w-100" alt="...">
+          <div class="container carousel-caption carousel-center">
+            <p class="text-white">Dream Big</p>
+            <h1 class="mb-5 text-white">Autos deportivos</h1>
+            <button type="button" class="btn btn-light btn-lg icon__main"><a href="./pages/galeria.html"><i class="bi bi-caret-right p-2 icon__main2"></i></a></button>
+          </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -82,21 +106,15 @@
         <span class="carousel" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
-    <div class="fondomain container-fluid">
-      <div class="container posicion">
-        <p class="text-white">Dream Big</p>
-        <h1 class="mb-5 text-white">Autos deportivos</h1>
-        <button type="button" class="btn btn-light btn-lg icon__main"><a href="./pages/galeria.html"><i class="bi bi-caret-right p-2 icon__main2"></i></a></button>
-      </div>
-    </div>
+    </div> -->
+
 
     <!-- CARDS -->
 
     <div class="container mt-1">
       <div class="row">
-        <div class="col-6 mt-5">
-          <div class="card">
+        <div class="col-lg-6 col-md-12 mt-5">
+          <div class="card card__inicio">
             <img src="./imagesautos/Lamborghini.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-dark">
               <h5 class="card-title text-white">Lamborghini</h5>
@@ -108,8 +126,8 @@
           </div>
         </div>
 
-        <div class="col-6 mt-5">
-          <div class="card">
+        <div class="col-lg-6 col-md-12 mt-5">
+          <div class="card card__inicio">
             <img src="./imagesautos/Ferrari.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-dark">
               <h5 class="card-title text-white">Ferrari</h5>
@@ -121,8 +139,8 @@
           </div>
         </div>
 
-        <div class="col-6 mt-5">
-          <div class="card">
+        <div class="col-lg-6 col-md-12 mt-5">
+          <div class="card card__inicio">
             <img src="./imagesautos/Ford.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-dark">
               <h5 class="card-title text-white">Ford</h5>
@@ -135,8 +153,8 @@
           </div>
         </div>
 
-        <div class="col-6 mt-5">
-          <div class="card">
+        <div class="col-lg-6 col-md-12 mt-5">
+          <div class="card card__inicio">
             <img src="./imagesautos/BMW.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-dark">
               <h5 class="card-title text-white">BMW</h5>
@@ -148,8 +166,8 @@
             </div>
           </div>
         </div>
-        <div class="col-6 mt-5">
-          <div class="card">
+        <div class="col-lg-6 col-md-12 mt-5">
+          <div class="card card__inicio">
             <img src="./imagesautos/Tesla.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-dark">
               <h5 class="card-title text-white">Tesla</h5>
@@ -161,8 +179,8 @@
             </div>
           </div>
         </div>
-        <div class="col-6 mt-5">
-          <div class="card">
+        <div class="col-lg-6 col-md-12 mt-5">
+          <div class="card card__inicio">
             <img src="./imagesautos/Audi.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-dark">
               <h5 class="card-title text-white">Audi</h5>
