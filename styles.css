@@ -115,6 +115,8 @@ ul {
     margin-top: 7rem;
     font-family: 'Oswald', sans-serif;
     font-style: italic;
+    color: black;
+    text-transform: uppercase;
 }
 
 .card__zoom {
@@ -179,7 +181,14 @@ ul {
 
 @media (max-width: 768px) {
     .texto-carrusel h1 {
-        font-size: 5rem;
+        font-size: 3.5rem;
+        max-width: 2rem;
+    }
+    
+    .card__zoom:hover {
+        box-shadow: -3px -3px 3px 3px hsla(240, 0%, 100%, 1);
+        margin-top: 1rem;
+        border: none;
     }
 }
 
