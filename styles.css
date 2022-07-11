@@ -18,8 +18,14 @@ ul {
 
 /* HEADER */
 
+.navbar__ig {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
 .navbar {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Mulish', sans-serif; 
 }
 
 .nav-link {
@@ -56,20 +62,13 @@ ul {
     font-style: italic;
 }
 
-.posicion {
-    position: absolute;
-    bottom: 7rem;
-    left: 20rem;
-}
-
 .icon__main {
     transition: transform 0.3s;
 }
 
 .icon__main:hover {
-    border: grey;
-    background-color: grey;
-
+    border: black;
+    background-color: black;
 }
 
 .icon__main2 {
@@ -91,8 +90,6 @@ ul {
     align-items: center;  
 }
 
-
-
 /* CARDS MAIN */
 
 .card {
@@ -112,16 +109,50 @@ ul {
     color: black;
 }
 
-.card__inicio {
-    
-}
-
 /* GALERIA */
 
-/* .card__galeria {
-    height: 500px;
-} */
+.galeriamt {
+    margin-top: 7rem;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+}
 
+.card__zoom {
+    transition: transform 1s, box-shadow 1.5s;
+    box-shadow: -3px -3px 3px 3px hsla(240, 0%, 25%, 1);
+    margin-top: 1rem;
+    border: none;
+}
+
+.card__zoom:hover {
+    transform: scale(1.1);
+    box-shadow: -3px -3px 3px 3px hsla(240, 0%, 100%, 1);
+    margin-top: 1rem;
+    border: none;
+}
+
+.card__zoom h5 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.card-bodyg::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-top: 15px;
+}
+
+.borde__cardg::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-top: 10px;
+}
 
 /* CONTACTO */
 
@@ -133,6 +164,10 @@ ul {
 
 .form-control:hover {
     box-shadow: none;
+}
+
+.btn__contact {
+    border: 1px solid white;
 }
 
 .btn__contact:hover {
@@ -147,4 +182,5 @@ ul {
         font-size: 5rem;
     }
 }
+
 
