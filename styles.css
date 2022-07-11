@@ -186,6 +186,7 @@ ul {
     }
     
     .card__zoom:hover {
+        transform: none;
         box-shadow: -3px -3px 3px 3px hsla(240, 0%, 100%, 1);
         margin-top: 1rem;
         border: none;
