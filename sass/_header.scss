@@ -1,0 +1,24 @@
+.navbar {
+    font-family: 'Mulish', sans-serif;
+
+    &__ig {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .nav-link {
+        background-image: linear-gradient(black, white);
+        background-position: 50% 85%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+
+        &:hover {
+            background-size: 100% 2px;
+        }    
+    }
+}
+
+
+

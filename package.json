@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-galeria-de-autos",
+  "version": "1.0.0",
+  "description": "Proyecto galeria de autos",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgusCoda/Proyecto-Galeriadeautos.git"
+  },
+  "author": "Agustin Hernan Codarini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgusCoda/Proyecto-Galeriadeautos/issues"
+  },
+  "homepage": "https://github.com/AgusCoda/Proyecto-Galeriadeautos#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

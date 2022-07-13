@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+.navbar {
+  font-family: 'Mulish', sans-serif; }
+  .navbar__ig {
+    position: fixed;
+    width: 100%;
+    z-index: 1; }
+  .navbar .nav-link {
+    background-image: linear-gradient(black, white);
+    background-position: 50% 85%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s; }
+    .navbar .nav-link:hover {
+      background-size: 100% 2px; }
+
+.backimg {
+  background-image: url("../imagesautos/bmwfondo.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center; }
+
+.fondomain h1 {
+  font-size: 6rem;
+  max-width: 30rem;
+  color: black;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-style: italic; }
+
+.fondomain p {
+  font-size: 3rem;
+  max-width: 30rem;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-style: italic; }
+
+.icon__main {
+  transition: transform 0.3s; }
+  .icon__main:hover {
+    border: black;
+    background-color: black; }
+
+.icon__main2 {
+  color: black; }
+  .icon__main2:hover {
+    color: white; }
+
+@media (max-width: 768px) {
+  .texto-carrusel h1 {
+    font-size: 3.5rem;
+    max-width: 2rem; } }
+
+.card {
+  transition: transform 0.3s; }
+  .card:hover {
+    transform: translateY(-10px); }
+  .card__btn {
+    transition: background-color 0.5s, color 0.5s; }
+  .card__btn:hover {
+    background-color: white;
+    color: black; }
