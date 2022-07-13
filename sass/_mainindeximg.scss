@@ -14,7 +14,6 @@
     & h1 {
     font-size: 6rem;
     max-width: 30rem;
-    color: black;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     font-style: italic;
@@ -23,7 +22,6 @@
     & p {
     font-size: 3rem;
     max-width: 30rem;
-    color: black;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-style: italic;
@@ -34,13 +32,13 @@
     transition: transform 0.3s;
 
     &:hover {
-        border: black;
-        background-color: black;
+        border: $lightblack;
+        background-color: $lightblack;
     }
 }
 
 .icon__main2 {
-    color: black;
+    color: $lightblack;
 
     &:hover {
         color: white;

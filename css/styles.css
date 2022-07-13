@@ -16,7 +16,7 @@ ul {
     width: 100%;
     z-index: 1; }
   .navbar .nav-link {
-    background-image: linear-gradient(black, white);
+    background-image: linear-gradient(#3F3F3F, white);
     background-position: 50% 85%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
@@ -37,7 +37,6 @@ ul {
 .fondomain h1 {
   font-size: 6rem;
   max-width: 30rem;
-  color: black;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
   font-style: italic; }
@@ -45,7 +44,6 @@ ul {
 .fondomain p {
   font-size: 3rem;
   max-width: 30rem;
-  color: black;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-style: italic; }
@@ -53,11 +51,11 @@ ul {
 .icon__main {
   transition: transform 0.3s; }
   .icon__main:hover {
-    border: black;
-    background-color: black; }
+    border: #3F3F3F;
+    background-color: #3F3F3F; }
 
 .icon__main2 {
-  color: black; }
+  color: #3F3F3F; }
   .icon__main2:hover {
     color: white; }
 
@@ -74,4 +72,4 @@ ul {
     transition: background-color 0.5s, color 0.5s; }
   .card__btn:hover {
     background-color: white;
-    color: black; }
+    color: #3F3F3F; }
