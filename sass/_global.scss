@@ -11,3 +11,42 @@ a {
 ul {
     list-style-type: none;
 }
+
+body {
+    background-color: #000011;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #FFF5FF;
+}
+
+$redesSociales: (
+  github: #FFF5FF,
+  twitter: #FFF5FF,
+  instagram: #FFF5FF,
+  facebook: #FFF5FF,
+);
+
+@each $nombre, $color in $redesSociales {
+.link-#{$nombre} {
+    margin: 0 5px;
+    color: $color;
+    text-decoration: none;
+}
+
+.link-#{$nombre}:hover {
+    color: #1e1e1e;
+}
+}
+
+.btnf {
+    border: #FFF5FF 1px solid;
+    padding: 7px 15px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #FFF5FF;
+        color: #1e1e1e;
+    }
+}

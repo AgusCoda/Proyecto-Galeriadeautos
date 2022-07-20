@@ -1,0 +1,28 @@
+.form-label {
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #FFF5FF;
+}
+
+.form-text {
+    color: #FFF5FF;
+}
+
+.form-check-label {
+    color: #FFF5FF;
+}
+
+.form-control:hover {
+    box-shadow: none;
+}
+
+.btn__contact {
+    border: 1px solid #FFF5FF;
+
+    &:hover {
+        color: #1e1e1e;
+        background-color: #FFF5FF;
+    }
+}
+

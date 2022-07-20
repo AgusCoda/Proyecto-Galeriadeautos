@@ -4,13 +4,63 @@
     &:hover {
         transform: translateY(-10px);
     }
+    
+    @mixin border-color($borde) {
+        border: $borde;
+    }
 
-    &__btn {
+    &__btn1 {
+        @include border-color(#FFF5FF 1px solid);
+        color: #FFF5FF;
+        font-weight: bold;
+    }
+
+    &__btn2 {
+        @include border-color(#1e1e1e 1px solid);
+        color: #1e1e1e;
+        font-weight: bold;
+    }
+
+    &__btn1 {
         transition: background-color 0.5s, color 0.5s;
     }
 
-    &__btn:hover {
-        background-color: white;
-        color: $lightblack;
+    &__btn2 {
+        transition: background-color 0.5s, color 0.5s;
+    }
+
+    &__btn1:hover {
+        background-color: #FFF5FF;
+        color: #1e1e1e;
+    }
+
+    &__btn2:hover {
+        background-color: #1e1e1e;
+        color: #FFF5FF;
+    }
+
+    @mixin card-color($fondocard, $colorletra) {
+    background-color: $fondocard;
+    color: $colorletra;
+    }
+
+    &_1 {
+        @include card-color(#1e1e1e, #FFF5FF);
+    }
+    
+    &_2 {
+        @include card-color(#FFF5FF, #1e1e1e);
+    }
+
+    @mixin card-borde($borde) {
+        border: $borde
+    }
+    
+    &_b1 {
+        @include card-borde(#FFF5FF 1px solid)
+    }
+
+    &_b2 {
+        @include card-borde(#1e1e1e 1px solid)
     }
 }

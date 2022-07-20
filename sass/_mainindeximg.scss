@@ -29,19 +29,15 @@
 }
 
 .icon__main {
-    transition: transform 0.3s;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #FFF5FF;
+    color: #1e1e1e;
 
     &:hover {
-        border: $lightblack;
+        border: #FFF5FF;
         background-color: $lightblack;
-    }
-}
-
-.icon__main2 {
-    color: $lightblack;
-
-    &:hover {
-        color: white;
+        color: #FFF5FF;
     }
 }
 

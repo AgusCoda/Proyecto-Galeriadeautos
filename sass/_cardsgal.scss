@@ -1,0 +1,128 @@
+.card__title {
+    margin-top: 7rem;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    color: #FFF5FF;
+    text-transform: uppercase;
+}
+
+.card__zoom {
+    transition: transform 1s, box-shadow 1.5s;
+    box-shadow: -3px -3px 3px 3px hsla(240, 0%, 25%, 1);
+    margin-top: 1rem;
+    border: none;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: -3px -3px 3px 3px hsla(240, 0%, 100%, 1);
+        margin-top: 1rem;
+        border: none;
+    }
+}
+
+.card__bordeg::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #FFF5FF;
+    margin-top: 10px;
+}
+
+.card__back {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card__bodyg1 {
+    background-color: #1e1e1e;
+
+    & h5 {
+        @extend .card__back;
+        color: #FFF5FF;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #FFF5FF;
+        margin-top: 15px;
+    }
+}
+
+.card__bodyg2 {
+    background-color: #FFF5FF;
+
+    & h5 {
+        @extend .card__back;
+        color: #1e1e1e;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #1e1e1e;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px){
+    .card__zoom:hover {
+        transform: none;
+        box-shadow: -3px -3px 3px 3px hsla(240, 0%, 100%, 1);
+        margin-top: 1rem;
+        border: none;
+    }
+}
+
+
+
+     //  .card__title {
+     //      margin-top: 7rem;
+     //      font-family: 'Oswald', sans-serif;
+     //      font-style: italic;
+     //      color: black;
+     //      text-transform: uppercase;
+     //  }
+
+     //  .card__zoom {
+     //      transition: transform 1s, box-shadow 1.5s;
+     //      box-shadow: -3px -3px 3px 3px hsla(240, 0%, 25%, 1);
+     //      margin-top: 1rem;
+     //      border: none;
+     //  }
+
+     //  .card__zoom:hover {
+     //      transform: scale(1.1);
+     //      box-shadow: -3px -3px 3px 3px hsla(240, 0%, 100%, 1);
+     //     margin-top: 1rem;
+     //      border: none;
+     //  }
+
+     //  .card__zoom h5 {
+     //      font-family: 'Kanit', sans-serif;
+     //      font-weight: bold;
+     //  }
+
+     //  .card__bodyg::after {
+     //      content: '';
+     //      display: block;
+     //      width: 100%;
+     //      height: 3px;
+     //      background-color: black;
+     //      margin-top: 15px;
+     //  }
+
+     //  .card__bordeg::after {
+     //      content: '';
+     //      display: block;
+     //      width: 100%;
+     //      height: 3px;
+     //      background-color: black;
+     //      margin-top: 10px;
+     //  }
