@@ -72,7 +72,8 @@ footer {
     background-position: 50% 85%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
-    transition: background-size .3s; }
+    transition: background-size .3s;
+    color: #FFF5FF; }
     .navbar .nav-link:hover {
       background-size: 100% 2px; }
 
@@ -91,29 +92,33 @@ footer {
   max-width: 30rem;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
-  font-style: italic; }
+  font-style: italic;
+  color: #FFF5FF; }
 
 .fondomain p {
   font-size: 3rem;
   max-width: 30rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-  font-style: italic; }
+  font-style: italic;
+  color: #FFF5FF; }
 
 .icon__main {
-  padding: 15px 20px;
+  padding: 20px 25px;
   border-radius: 10px;
   background-color: #FFF5FF;
   color: #1e1e1e; }
   .icon__main:hover {
     border: #FFF5FF;
-    background-color: #1e1e1e;
+    background: linear-gradient(45deg, #FFF5FF, #1e1e1e 100%);
     color: #FFF5FF; }
 
 @media (max-width: 768px) {
   .texto-carrusel h1 {
-    font-size: 3.5rem;
-    max-width: 2rem; } }
+    font-size: 3.8rem;
+    max-width: 2rem; }
+  .texto-carrusel p {
+    font-size: 2.2rem; } }
 
 .card {
   transition: transform 0.3s; }

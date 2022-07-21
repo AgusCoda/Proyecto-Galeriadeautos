@@ -17,6 +17,7 @@
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     font-style: italic;
+    color: #FFF5FF;
     }
 
     & p {
@@ -25,25 +26,30 @@
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-style: italic;
+    color: #FFF5FF;
     }
 }
 
 .icon__main {
-    padding: 15px 20px;
+    padding: 20px 25px;
     border-radius: 10px;
     background-color: #FFF5FF;
     color: #1e1e1e;
 
     &:hover {
         border: #FFF5FF;
-        background-color: $lightblack;
+        background: linear-gradient(45deg, #FFF5FF, #1e1e1e 100%);
         color: #FFF5FF;
     }
 }
 
 @media (max-width: 768px) {
     .texto-carrusel h1 {
-        font-size: 3.5rem;
+        font-size: 3.8rem;
         max-width: 2rem;
+    }
+
+    .texto-carrusel p {
+        font-size: 2.2rem;
     }
 }
