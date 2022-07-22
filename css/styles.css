@@ -103,14 +103,24 @@ footer {
   font-style: italic;
   color: #FFF5FF; }
 
+.rombo {
+  width: 100px;
+  height: 150px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
 .icon__main {
-  padding: 20px 25px;
-  border-radius: 10px;
+  padding: 5px 15px;
   background-color: #FFF5FF;
-  color: #1e1e1e; }
+  color: #1e1e1e;
+  border: 2px solid #1e1e1e;
+  font-size: 50px; }
   .icon__main:hover {
-    border: #FFF5FF;
-    background: linear-gradient(45deg, #FFF5FF, #1e1e1e 100%);
+    border: 2px solid #FFF5FF;
+    background-color: #1e1e1e;
     color: #FFF5FF; }
 
 @media (max-width: 768px) {
@@ -118,7 +128,9 @@ footer {
     font-size: 3.8rem;
     max-width: 2rem; }
   .texto-carrusel p {
-    font-size: 2.2rem; } }
+    font-size: 2.2rem; }
+  .icon__main {
+    padding: 5px 10px; } }
 
 .card {
   transition: transform 0.3s; }
